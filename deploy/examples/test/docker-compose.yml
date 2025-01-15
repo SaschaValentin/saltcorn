@@ -11,7 +11,7 @@ services:
     networks:
       - saltcorn
     ports: #not needed if using traefik
-      - "3000:3000"
+      - "3870:3870"
     environment:
       - SALTCORN_SESSION_SECRET=${SALTCORN_SECRET}
       - PGHOST=saltcorn-db
